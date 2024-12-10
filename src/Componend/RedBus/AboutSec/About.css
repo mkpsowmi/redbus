@@ -1,0 +1,300 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.aboutcond{
+    width:90%;
+    margin: 0 auto;
+}
+
+.aboutsec{
+    margin-top:40px;
+    margin-bottom: 30px;
+}
+.aboutrow{
+    display:flex;
+}
+
+
+.Travel-detail{
+    display:flex;
+    gap:4%;
+    position: relative;
+    margin-top:30px;
+    margin-bottom: 30px;
+    
+   
+}
+
+.Travel-detail::after{
+content: '';
+background: rgb(229, 229, 229); 
+position: absolute;
+margin-top:15px;
+height: 2px;
+width: 70%;
+top:35px;
+left: 0;
+bottom: 0;
+right: 0;
+}
+
+.bus-travel{
+    display:flex;
+    gap:10px;
+
+}
+.car-detail{
+    display:flex;
+    gap:10px;
+}
+
+.about-col h1{
+    font-weight:500;
+    font-size: 39px;
+    line-height:1.5;
+    color: rgb(29, 29, 29);
+    width: 34.5rem;
+    font-family: 'Montserrat' !important;
+
+}
+
+
+.bold{
+    font-weight:900;
+    font-family: 'Montserrat' !important;
+}
+
+.about-col1{
+    width:50%;
+}
+
+
+.car-2{
+    width:50%;
+}
+
+.small-line{
+    height:25px;
+    width:2px;
+    background: rgb(229, 229, 229); 
+}
+
+.bus-travel{
+    filter: grayscale(1) brightness(0);
+}
+
+.bus-travel:hover{
+    filter:none;
+}
+
+.about-head h5{
+     font-size:16px;
+     font-family: 'Montserrat' !important;
+}
+
+.about-head1 h5{
+    font-size:16px;
+    font-family: 'Montserrat' !important;
+    color: rgb(216, 78, 85);
+    font-weight:600;
+}
+
+
+.bus-travel1{
+    display: flex;
+    gap:10px;
+  
+}
+
+
+.about-para p{
+      font-size:16px;
+      font-family: 'Montserrat' !important;
+      padding-top:20px;
+      padding-bottom:20px;
+}
+
+
+
+.car-detail{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.car-word h5{
+    font-weight:800;
+    font-size: 14px;
+    font-family: 'Montserrat' !important;
+    padding-top: 10px;
+}
+
+
+.hole-travel img{
+    width:100%;
+}
+
+
+img.filter {
+    background-image: url(https://s3.rdbuz.com/web/images/homeV2/AboutUs/aboutUsImg.svg);
+    width: 35.25rem;
+    position: relative;
+    height: 39.25rem;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+.button3 {
+    width: 46%;
+    margin-left: 103px;
+    margin-top: 20px;
+    text-align: center;
+    display:flex;
+   
+}
+
+
+ .book span{
+    background-color: #e9475f;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 13px 13px 17px 13px;
+    text-align: center;
+    border-radius: 16px 17px;
+ }
+
+
+ .east {
+    padding-top: 5px;
+    font-weight: 900;
+    margin-top: 21px;
+    font-family: 'Montserrat' !important;
+    padding-left:6px;
+}
+
+
+@media(min-width:320px){
+    
+    .aboutsec{
+        margin-top:90px;
+        margin-bottom: 30px;
+    }
+    .button3 {     
+        margin-left: 33px;
+          width: 100%;
+            margin-bottom: 39px;
+    }
+   
+     .about-col h1{
+        font-size: 34px;
+    width: 21.1rem;
+     }
+
+      .aboutrow{
+        display:flex;
+        flex-wrap:wrap;
+        width:100%;
+      }     
+      
+      .about-col1{
+        width:100%;
+      }
+
+     .car-2{
+       width:100%;
+      }
+
+
+      .hole-travel{
+        width:100%;
+      }
+
+    .hole-travel img{
+        width:100%;
+    }
+
+    .book span{
+        font-size: 20px;
+        font-weight: 400;
+       padding: 13px 13px 17px 13px;
+    }
+
+    .Travel-detail::after{
+        width:100%;
+    }
+
+}
+
+
+@media(min-width:768px)
+{
+
+    .aboutrow{
+      display:flex;
+      flex-wrap:nowrap;
+    }
+
+
+    .about-col1{
+        width:50%;
+      }
+
+   .car-2{
+    width:50%;
+   }
+
+   .hole-travel img{
+    width:100%;
+}
+
+    .about-col h1{
+           font-size: 34px;
+            width: 26.1rem;
+     }
+
+     .Travel-detail::after{
+        width:97%;
+    }
+     
+}
+
+
+
+
+@media(min-width:1028px){
+
+    .aboutrow{
+      display:flex;
+      flex-wrap:nowrap;
+    }
+
+
+    .about-col1{
+        width:50%;
+      }
+
+   .car-2{
+    width:50%;
+   }
+
+   .hole-travel img{
+    width:100%;
+}
+
+
+.Travel-detail::after{
+    width:78%;
+}
+
+.about-col h1{
+    font-size: 44px;
+    width: 34.1rem;
+ 
+}
+
+}

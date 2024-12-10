@@ -1,0 +1,473 @@
+.search-container{
+    width:80%;
+    margin: 0 auto;
+}   
+
+
+
+.search-sec{
+    position: absolute;
+    top:90px;
+    bottom:0;
+    right:0;
+    left:10px;
+}
+
+.search-row{ 
+    display:flex;
+    padding-top:130px;
+    align-items: center;
+    margin-left:140px;
+    /* margin-bottom: 50px; */
+   text-align: center;
+   position:relative;  
+}
+
+.form{
+     
+    color:black;
+}
+
+
+#ser-bus{ 
+    background-color: rgb(216, 78, 85);
+     padding:29px;
+     font-size: 19px;
+     font-weight:bold;
+     border-radius:0px 20px 20px 0px;
+}
+
+
+
+.place {
+    display:flex;
+
+}
+/* 
+.mer1{
+    position:relative;
+}
+
+.mer{
+   position:absolute;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+
+} */
+
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.bus.css-i4bv87-MuiSvgIcon-root {
+    z-index: 1;
+    position: absolute;
+    top: 162px;
+    left: 19px;
+    font-size: 29px;
+    color: #6b6b6b;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.bus1.css-i4bv87-MuiSvgIcon-root {
+    top: 32px;
+    left: 279px;
+}
+
+
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    position: relative;
+    padding: 0px;
+}
+
+.MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-1ff8729-MuiInputBase-root-MuiFilledInput-root {
+    background-color: #fff;
+    padding:22px;
+}
+
+
+input #filled-basic {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.Date{
+    font-size:10px;
+}
+
+#filled-basic {
+    background-color: white;
+    border: none;
+    padding-left: 24px;
+}
+
+
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    position: relative;
+    border-left: 1px solid rgb(224, 224, 224);
+}
+
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.bus1.css-i4bv87-MuiSvgIcon-root {
+    position: absolute;
+    z-index: 1;
+    top: 166px;
+    left: 289px;
+    font-size: 29px;
+    color: #6b6b6b;
+}
+
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    position: relative;
+}
+
+svg.calen {
+    position: absolute;
+    z-index: 1;
+    top: 166px;
+    font-size: 20px;
+    color: #6b6b6b !important;
+    width:25px;
+ 
+}
+
+.arrow{
+position:absolute;
+background-color:white;
+
+}
+
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.arrow.css-i4bv87-MuiSvgIcon-root {
+    left:251px;
+    z-index: 1;
+    border: 1px solid #6b6b6b;
+    color: #6b6b6b;
+    border-radius: 50%;
+    width: 26px;
+    height: 27px;
+    padding: 1px;
+}
+
+
+label#filled-basic-label {
+    margin-left: 40px;
+    top: 19px;
+    font-size: 19px;
+    border: none;
+    color: black;
+}
+
+
+label#filled-basic-label{
+    color:#6b6b6b;
+}
+
+
+
+.place{
+     border-radius:0px 0px 10px 20px;
+}
+
+
+#alert{
+    color: hsl(10, 85%, 47%);
+    font-size:18px;
+    font-weight:600;
+    padding-top:10px;
+    text-align: start;
+    padding-left:140px;
+    font-family: 'Montserrat' !important;
+}
+
+
+
+.place3 .calen {
+    font-size: 25px !important;
+    margin-left: 10px;
+}
+
+/* MObile view */
+@media(min-width:320px) {
+    .search-sec{
+        position:0;
+        top: 120px;
+        bottom: 0;
+        right: 0;
+        left: 30px;
+    }
+
+    .search-container{
+        width:90%;
+        margin:0 auto;
+    }   
+    
+    .search-row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        padding-top: 0px
+    }
+
+    
+    .MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-1ff8729-MuiInputBase-root-MuiFilledInput-root {
+        padding: 3px;
+        border-top: 1px solid rgb(224, 224, 224);
+        border-right: 1px solid rgb(224, 224, 224);
+        }
+
+ svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.arrow.css-i4bv87-MuiSvgIcon-root {
+            left:244px;
+            top: 65px;
+        }
+        
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.bus.css-i4bv87-MuiSvgIcon-root {
+      top: 34px;
+      left: 12px;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.bus1.css-i4bv87-MuiSvgIcon-root {
+    top: 117px;
+    left: 13px;
+}
+
+#ser-bus {
+    margin-top: 2px;
+    padding: 15px 47px 15px 80px;
+    font-size: 16px;
+    margin-top: 2px;
+    font-weight: 600;
+    border-radius: 0px 0px 13px 13px;
+}
+
+svg.calen {
+   width: 35px;
+    top: 196px;
+    
+}
+
+#filled-basic {
+    padding-left: 67px;
+    margin-top: 18px;
+}
+
+ }
+ 
+ /* tab view */
+@media(min-width:768px){
+    
+    .search-sec{
+        top:170px;
+        bottom:0;
+        right:0;
+        left:0px;
+    }
+
+    .search-container{
+        width:90%;
+        margin:0 auto;
+    }  
+ 
+    .search-row{
+        display:flex;
+        flex-wrap:nowrap;
+        margin-left:0px;
+    }
+
+    .MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-1ff8729-MuiInputBase-root-MuiFilledInput-root {
+        padding: 0px;
+        border-top: 1px solid rgb(224, 224, 224);
+        border-right: 0px;
+
+    }
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.arrow.css-i4bv87-MuiSvgIcon-root {
+        left: 169px;
+        top: 33px;
+    }
+        
+
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.bus.css-i4bv87-MuiSvgIcon-root {
+      top: 34px;
+      left: 12px;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.bus1.css-i4bv87-MuiSvgIcon-root {
+    top: 36px;
+    left: 194px;
+}
+
+#ser-bus {
+    margin-top: 0px;
+    padding: 10px 34px 10px 33px;
+    font-size: 16px;
+    margin-top: 2px;
+    font-weight: 600;
+    border-radius: 0px 0px 13px 0px;
+}
+
+#filled-basic {
+    padding-left: 64px;
+    margin-top: 18px;
+}
+  
+svg.calen {
+        width:5%;
+        top:37px;
+        margin-left:0px;
+    }
+  
+   
+}
+   
+@media(min-width:1024px){
+     
+
+    .search-sec{
+        top:180px;
+        bottom:0;
+        right:0;
+        left:0px;
+    }
+
+    .search-container{
+        width:90%;
+        margin:0 auto;
+    }  
+ 
+    .search-row{
+        display:flex;
+        flex-wrap:nowrap;
+        margin-left:60px;
+    }
+   
+
+    .MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-1ff8729-MuiInputBase-root-MuiFilledInput-root {
+        padding:16px;
+        border-top: 1px solid rgb(224, 224, 224);
+        border-right: 0px;
+
+    }
+
+
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.arrow.css-i4bv87-MuiSvgIcon-root {
+        left: 220px;
+        top: 33px;
+    }
+        
+
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.bus.css-i4bv87-MuiSvgIcon-root {
+      top: 34px;
+      left: 12px;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.bus1.css-i4bv87-MuiSvgIcon-root {
+    top: 36px;
+    left: 250px;
+}
+
+
+#ser-bus {
+    margin-top: 0px;
+    padding: 15px 24px 15px 33px;
+    font-size: 16px;
+    margin-top: 0px;
+    font-weight: 600;
+    border-radius: 0px 14px 13px 0px;
+}
+
+
+#filled-basic {
+        padding-left: 36px;
+        margin-top:0px;
+    }
+  
+svg.calen {
+        width:4%;
+        top:35px;
+        margin-left:0px;
+    }
+  
+
+    .place3 .calen {
+        font-size: 29px !important;
+        margin-left: 0px;
+    }
+    
+    
+}
+
+
+
+@media(min-width:1336px){
+
+    .search-sec{
+        top:200px;
+        bottom:0;
+        right:0;
+        left:0px;
+    }
+
+    .search-container{
+        width:90%;
+        margin:0 auto;
+    }  
+ 
+    .search-row{
+        display:flex;
+        flex-wrap:nowrap;
+        margin-left:90px;
+    }
+   
+
+    .MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-1ff8729-MuiInputBase-root-MuiFilledInput-root {
+        padding:20px;
+        border-top: 1px solid rgb(224, 224, 224);
+        border-right: 0px;
+
+    }
+
+
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.arrow.css-i4bv87-MuiSvgIcon-root {
+        left: 269px;
+    top: 33px;
+    }
+        
+
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.bus.css-i4bv87-MuiSvgIcon-root {
+      top: 34px;
+      left: 12px;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.bus1.css-i4bv87-MuiSvgIcon-root {
+    top: 36px;
+    left: 295px;
+}
+
+
+#ser-bus {
+    margin-top: 0px;
+    padding: 36px 36px 30px 36px;
+    font-size: 16px;
+    margin-top: 0px;
+    font-weight: 600;
+    border-radius: 0px 13px 13px 0px;
+}
+
+
+#filled-basic {
+        padding-left: 36px;
+        margin-top:0px;
+    }
+  
+svg.calen {
+        width:5%;
+        top:37px;
+        margin-left:0px;
+    }
+  
+
+
+
+
+}
+
+
