@@ -1,6 +1,6 @@
 import React,{useReducer} from 'react';
 import {Context} from "./Context";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { initalState,stateReducer } from './Reducer';
 // import Search from './Search';
 import Home from './Home/Home';
@@ -13,7 +13,7 @@ const Routing = () => {
   return (
     <div>
     <Context.Provider value={{state,dispatch}}> 
-        <HashRouter>
+        <BrowserRouter>
           <Routes>
             <Route path="/"  element={<Home/>}></Route>
             <Route path="/Travels" element={<Travels/>}/>
@@ -21,7 +21,7 @@ const Routing = () => {
 
 
           </Routes>
-        </HashRouter>
+        </BrowserRouter>
       </Context.Provider>
     </div>
   );
