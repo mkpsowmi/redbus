@@ -1,0 +1,587 @@
+{
+      "detail":[
+        {
+         "from":"tiruneveli",
+         "to":"bangalore",
+         "date":"05/01/2023",     
+         "id":"1",
+         "buses" : [
+              
+            {  
+               
+              "busname":"SRS Travels",
+              "bustype":"NON A/C Sleeper (2+1)",
+              "srartTime":"21.00",
+              "startarea":"New Bus Stand",
+               "endTime":"6.55",
+               "endplace":"Madiwala",
+               "star":"4.6",
+               "Rate":"1500",
+               "count":{
+                  "booked":[3,6,8,9],
+                  "Selected":true,
+                   "tot":100
+               }
+               
+           
+            },
+           
+            {
+                "busname":"NS Travels",
+                "bustype":"Bharat Benz A/C Sleeper (2+1)",
+                "srartTime":"23:30",
+                "startarea":"New Bus Stand",
+                 "endTime":"07:10",
+                 "endplace":"New Bus Stand",
+                 "star":"4.7",
+                  "Rate":"2000",
+                  "count":{
+                     "booked":[3,6,8,9],
+                     "Selected":true,
+                      "tot":100
+                  }
+                
+              },
+
+              {
+                "busname":"Mss Travels",
+                "bustype":"NON A/C Sleeper",
+                "srartTime":"23:40",
+                "startarea":"New Bus Stand",
+                 "endTime":"06:25",
+                 "endplace":"Kalasipalyam",
+                 "star":"4.9",
+                 "Rate":"1800" ,
+                 "count":{
+                  "booked":[3,6,8,9],
+                  "Selected":true,
+                   "tot":100
+               }
+
+              },
+
+              {
+               "busname":"Rathimeena Travels",
+               "bustype":"NON A/C Sleeper",
+               "srartTime":"23:40",
+               "startarea":"New Bus Stand",
+                "endTime":"06:25",
+                "endplace":"Kalasipalyam",
+                "star":"4.9",
+                "Rate":"1800" ,
+                "count":{
+                  "booked":[3,6,8,9],
+                  "Selected":true,
+                   "tot":100
+               }
+
+             },
+
+
+             {
+               "busname":"Punchiry Travels and Holidays",
+               "bustype":"NON A/C Sleeper",
+               "srartTime":"23:40",
+               "startarea":"Vannarpettai",
+                "endTime":"06:25",
+                "endplace":"Kalasipalyam",
+                "star":"4.9",
+                "Rate":"1800" ,
+                "count":{
+                  "booked":[3,6,8,9],
+                  "Selected":true,
+                   "tot":100
+               }
+
+             }
+
+         ]
+            },
+                
+            {
+                "from":"bangalore",
+                "to":"tirunelveli",
+                "date":"05/01/2023",
+                "buses" : [
+                   {
+                     "busname":"UST Bus",
+                     "bustype":"Volvo Multi Axle Sleeper B11R (2+1)",
+                     "srartTime":"19:30",
+                     "startarea":"Kalasipalyam",
+                      "endTime":"02:25",
+                      "endplace":"Vannarpettai",
+                      "star":"4.4",
+                       "Rate":"700",
+                       "count":{
+                        "booked":[3,6,8,9],
+                        "Selected":true,
+                         "tot":100
+                     }
+                     
+                  
+                   },
+                  
+                   {
+                       "busname":"Sri Sugam Bus Tours and Travels",
+                       "bustype":"A/C Sleeper (2+1)",
+                       "srartTime":"23:15",
+                       "startarea":"Silk Board",
+                        "endTime":"05:15",
+                        "endplace":"Tirunelveli - Boarding Zone",
+                        "star":"4.9",
+                          "Rate":"1166",
+                          "count":{
+                           "booked":[3,6,8,9],
+                           "Selected":true,
+                            "tot":100
+                        }
+                              
+                     },
+       
+                     {
+                       "busname":"IntrCity SmartBus",
+                       "bustype":"NON AC Seater / Sleeper 2+1",
+                       "srartTime":"22:20",
+                       "startarea":"Kalasipalyam",
+                        "endTime":"05:30",
+                        "endplace":"Sankarnagar",
+                        "star":"3.9",
+                        "Rate":"996",
+                        "count":{
+                           "booked":[3,6,8,9],
+                           "Selected":true,
+                            "tot":100
+                        }
+                        
+                    
+                     },
+                     {
+                        "busname":"A1 Travels",
+                        "bustype":"NON AC Seater / Sleeper 2+1",
+                        "srartTime":"22:20",
+                        "startarea":"Kalasipalyam",
+                         "endTime":"05:30",
+                         "endplace":"Vannarpettai",
+                         "star":"3.9",
+                         "Rate":"996",
+                         "count":{
+                           "booked":[3,6,8,9],
+                           "Selected":true,
+                            "tot":100
+                        }
+                         
+                     
+                      },
+                      {
+                        "busname":"Murahara Travels",
+                        "bustype":"NON AC Seater / Sleeper 2+1",
+                        "srartTime":"22:20",
+                        "startarea":"Kalasipalyam",
+                         "endTime":"05:30",
+                         "endplace":"Tirunelveli",
+                         "star":"3.9",
+                         "Rate":"996",
+                         "count":{
+                           "booked":[3,6,8,9],
+                           "Selected":true,
+                            "tot":100
+                        }
+                         
+                     
+                      }
+       
+       
+                ]
+                   },
+                   
+                   {
+                    "from":"tenkasi",
+                    "to":"madurai",
+                    "date":"05/01/2023",
+                    "id":"2",
+                    "buses" : [
+                       {
+                       
+                         "busname":"Vetri Travels",
+                         "bustype":"A/C Sleeper (2+1)",
+                         "srartTime":"19:00",
+                         "startarea":"Laxmi Travels",
+                          "endTime":"22:50",
+                          "endplace":"Sivagangai Roundana",
+                          "star":"4.3",
+                          "Rate":"1099",
+                          "count":{
+                           "booked":[3,6,8,9],
+                           "Selected":true,
+                            "tot":100
+                        }
+                         
+                      
+                       },
+                      
+                       {
+                           "busname":"Yolo Bus",
+                           "bustype":"A/C Sleeper (2+1)",
+                           "srartTime":"20:35",
+                           "startarea":"Tenkasi",
+                            "endTime":"23:53",
+                            "endplace":"Vannarpettai",
+                            "star":"4.0",
+                            "Rate":"449",
+                            "count":{
+                              "booked":[3,6,8,9],
+                              "Selected":true,
+                               "tot":100
+                           }
+                            
+                        
+                         },
+           
+                         {
+                           "busname":"Mudhalvan Travels",
+                           "bustype":"A/C Sleeper (2+1)",
+                           "srartTime":"20:25",
+                           "startarea":"Tenkasi New Bustand",
+                            "endTime":"23:35",
+                            "endplace":"Mattuthavani",
+                            "star":"3.9",
+                            "Rate":"1100",
+                            "count":{
+                              "booked":[3,6,8,9],
+                              "Selected":true,
+                               "tot":100
+                           }
+                            
+                        
+                         },
+                         {
+                           "busname":"Subra roadways",
+                           "bustype":"A/C Sleeper (2+1)",
+                           "srartTime":"20:25",
+                           "startarea":"Tenkasi New Bustand",
+                            "endTime":"23:35",
+                            "endplace":"Mattuthavani",
+                            "star":"3.9",
+                            "Rate":"1100",
+                            "count":{
+                              "booked":[3,6,8,9],
+                              "Selected":true,
+                               "tot":100
+                           }
+
+                        
+                         },
+                         {
+                           "busname":"GOLDEN EAGLE TOURS & TRAVELS",
+                           "bustype":"A/C Sleeper (2+1)",
+                           "srartTime":"20:25",
+                           "startarea":"Tenkasi New Bustand",
+                            "endTime":"23:35",
+                            "endplace":"Mattuthavani",
+                            "star":"3.9",
+                            "Rate":"1100",
+                            "count":{
+                              "booked":[3,6,8,9],
+                              "Selected":true,
+                               "tot":100
+                           }
+                            
+                        
+                         }
+           
+           
+                    ]
+                       },
+                       {
+                        "from":"madurai",
+                        "to":"tenkasi",
+                        "date":"05/01/2023",
+                        "id":"3",
+                        "buses" : [
+                           {
+                              
+                             "busname":"MRM Travels",
+                             "bustype":"NON A/C Seater/ Sleeper (2+1)",
+                             "srartTime":"05:40",
+                             "startarea":"Mattuthavani",
+                              "endTime":"10:00",
+                              "endplace":"New Bus Stand",
+                              "star":"4.0",
+                              "Rate":"1100",
+                              "count":{
+                                 "booked":[3,6,8,9],
+                                 "Selected":true,
+                                  "tot":100
+                              }
+                             
+                          
+                           },
+                          
+                           {
+                               "busname":"YBM Travels(BLM)",
+                               "bustype":"A/C Sleeper (2+1)",
+                               "srartTime":"04:30",
+                               "startarea":"Main Ring Road",
+                                "endTime":"08:00",
+                                "endplace":"New Bus Stand",
+                                "star":"3.7",
+                                "Rate":"700",
+                                "count":{
+                                 "booked":[3,6,8,9],
+                                 "Selected":true,
+                                  "tot":100
+                              }
+                             
+                            
+                             },
+               
+                             {
+                               "busname":"Vetri Travels",
+                               "bustype":"A/C Sleeper (2+1)",
+                               "srartTime":"03:30",
+                               "startarea":"Main Ring Road",
+                                "endTime":"07:15",
+                                "endplace":"New Bus Stand",
+                                "star":"4.3",
+                                "Rate":"1099",
+                                "count":{
+                                 "booked":[3,6,8,9],
+                                 "Selected":true,
+                                  "tot":100
+                              }
+                                
+                            
+                             },
+                             {
+                              "busname":"3D Travels",
+                              "bustype":"A/C Sleeper (2+1)",
+                              "srartTime":"03:30",
+                              "startarea":"Main Ring Road",
+                               "endTime":"07:15",
+                               "endplace":"New Bus Stand",
+                               "star":"4.3",
+                               "Rate":"1099",
+                               "count":{
+                               "booked":[3,6,8,9],
+                                "Selected":true,
+                               "tot":100
+               }
+                               
+                           
+                            },
+                            {
+                              "busname":"GOLDEN EAGLE TOURS & TRAVELS",
+                              "bustype":"A/C Sleeper (2+1)",
+                              "srartTime":"03:30",
+                              "startarea":"Main Ring Road",
+                               "endTime":"07:15",
+                               "endplace":"New Bus Stand",
+                               "star":"4.3",
+                               "Rate":"1099",
+                               "count":{
+                                 "booked":[3,6,8,9],
+                                 "Selected":true,
+                                  "tot":100
+                              }
+                           
+                            }
+               
+               
+                        ]
+                           },
+                           {
+                            "from":"Tirunelveli",
+                            "to":"kerala",
+                            "date":"05/01/2023",
+                            "id":"4",
+                            "buses" : [
+                               {
+                                 
+                                 "busname":"PSS Transport",
+                                 "bustype":"A/C Sleeper (2+1)",
+                                 "srartTime":"22:30",
+                                 "startarea":"New Bus Stand",
+                                  "endTime":"05:15",
+                                  "endplace":"kerala",
+                                  "star":"3.8",
+                                  "Rate":"900",
+                                  "count":{
+                                    "booked":[3,6,8,9],
+                                    "Selected":true,
+                                     "tot":100
+                                 }
+                              
+                               },
+                              
+                               {
+                                   "busname":"Arthi Travels",
+                                   "bustype":"A/C Sleeper (2+1)",
+                                   "srartTime":"22:15",
+                                   "startarea":"New Bus Stand",
+                                    "endTime":"05:45",
+                                    "endplace":"kerala",
+                                    "star":"4.6",
+                                    "Rate":"600",
+                                    "count":{
+                                       "booked":[3,6,8,9],
+                                       "Selected":true,
+                                        "tot":100
+                                    }
+
+                                    
+                                
+                                 },
+                   
+                                 {
+                                   "busname":"Sri Ganapathy Travels",
+                                   "srartTime":"22:00",
+                                   "startarea":"New Bus Stand",
+                                    "endTime":"05:30",
+                                    "endplace":"kerala",
+                                    "star":"3.6",
+                                    "Rate":"650",
+                                    "count":{
+                                       "booked":[3,6,8,9],
+                                       "Selected":true,
+                                        "tot":100
+                                    }
+                                
+                                 },
+                                 {
+                                    "busname":"KPR Travels",
+                                    "srartTime":"22:00",
+                                    "startarea":"New Bus Stand",
+                                     "endTime":"05:30",
+                                     "endplace":"kerala",
+                                     "star":"4.1",
+                                     "Rate":"650",
+                                     "count":{
+                                       "booked":[3,6,8,9],
+                                       "Selected":true,
+                                        "tot":100
+                                    }
+                                 
+                                  },
+                                  {
+                                    "busname":"Muruga Travels",
+                                    "srartTime":"22:00",
+                                    "startarea":"New Bus Stand",
+                                     "endTime":"05:30",
+                                     "endplace":"kerala",
+                                     "star":"4.2",
+                                     "Rate":"650",
+                                     "count":{
+                                       "booked":[3,6,8,9],
+                                       "Selected":true,
+                                        "tot":100
+                                    }
+                                 
+                                  }
+                   
+                   
+                            ]
+                               },
+                               {
+                                "from":"kerala",
+                                "to":"tirunelveli",
+                                "date":"05/01/2023",
+                                "id":"5", 
+                                "buses" : [
+                                   {
+                                    
+                                     "busname":"Essaar",
+                                     "bustype":"A/C Sleeper (2+1)",
+                                     "srartTime":"22:20",
+                                     "startarea":"kumuli",
+                                      "endTime":"05:30",
+                                      "endplace":"New Bus Stand",
+                                      "star":"3.8",
+                                      "Rate":"1048",
+                                      "count":{
+                                       "booked":[3,6,8,9],
+                                       "Selected":true,
+                                        "tot":100
+                                    }
+                                      
+                                  
+                                   },
+                                  
+                                   {
+                                       "busname":"Krish Travels",
+                                       "bustype":"NON A/C Seater/ Sleeper (2+1)",
+                                       "srartTime":"22:15",
+                                       "startarea":"vanam road",
+                                        "endTime":"05:30",
+                                        "endplace":"Tirunelveli - Boarding Zone",
+                                        "star":"3.5",
+                                        "Rate":"950",
+                                        "count":{
+                                          "booked":[3,6,8,9],
+                                          "Selected":true,
+                                           "tot":100
+                                       }
+                                       
+                                    
+                                     },
+                       
+                                     {
+                                       "busname":"Hindusthan Travels",
+                                       "bustype":"NON AC Seater / Sleeper 2+1",
+                                       "srartTime":"22:25",
+                                       "startarea":"New Bus Stand",
+                                        "endTime":"05:30",
+                                        "endplace":"New Bus Stand",
+                                        "star":"4.0",
+                                        "Rate":"1000",
+                                        "count":{
+                                          "booked":[3,6,8,9],
+                                          "Selected":true,
+                                           "tot":100
+                                       }
+                                        
+                                    
+                                     },
+                                     {
+                                       "busname":"SRS Travels",
+                                       "bustype":"NON AC Seater / Sleeper 2+1",
+                                       "srartTime":"22:25",
+                                       "startarea":"New Bus Stand",
+                                        "endTime":"05:30",
+                                        "endplace":"New Bus Stand",
+                                        "star":"4.6",
+                                        "Rate":"1000",
+                                        "count":{
+                                           "booked":[3,6,8,9],
+                                            "Selected":true,
+                                                "tot":100
+                                     }
+                                        
+                                    
+                                     },
+                                     {
+                                       "busname":"EMR Travels",
+                                       "bustype":"NON AC Seater / Sleeper 2+1",
+                                       "srartTime":"22:25",
+                                       "startarea":"New Bus Stand",
+                                        "endTime":"05:30",
+                                        "endplace":"New Bus Stand",
+                                        "star":"4.0",
+                                        "Rate":"1000",
+                                        "count":{
+                                          "booked":[3,6,8,9],
+                                          "Selected":true,
+                                           "tot":100
+                                       }
+                                        
+                                    
+                                     }
+                       
+                       
+                                ]
+                                   }
+                                 ]
+                                 }
+
+
+
+                           

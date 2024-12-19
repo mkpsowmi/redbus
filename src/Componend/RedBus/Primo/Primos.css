@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.primo-sec{
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+
+.primo-cond {
+    width:85%;
+    margin:0 auto;
+}
+
+.primo-row{
+    display:flex;
+    gap:5%;
+    padding-top:40px;
+
+}
+
+.primo-head{
+    text-align: center;
+}
+
+/* .primo1 img {
+  width:100%;
+
+} */
+
+.pri-card{
+    display:flex;
+    gap:30px;
+    width:33.3%;
+    border-radius: 10px 10px;
+    padding:20px 30px 20px 20px;
+    background-image: linear-gradient(to right, rgb(38, 72, 153), rgb(125, 70, 134));
+}
+
+
+.prim h4{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+    font-family: 'Montserrat' !important;
+}
+
+
+.prim p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 7px;
+    font-weight: 500;
+    font-family: 'Montserrat' !important;
+}
+
+
+
+
+@media(min-width:320px)
+
+{
+    .pri-card{
+        width:100%;
+        margin-top: 10px;
+        padding:20px 20px 20px 20px;
+    }
+    .primo1 img{
+        width:100%
+    }
+     .primo-row{
+        display:flex;
+        flex-wrap:wrap;
+        width:100%;
+    }
+
+}
+
+
+
+@media(min-width:768px)
+
+{
+    .primo-row{
+        display:flex;
+        flex-wrap:nowrap;
+         gap:30px;
+    }
+    .primo1 img{
+        width:50%;
+    }
+    
+    .pri-card{
+        width:33.3%;
+        margin-top:0px;
+        gap:10px;
+       
+    }
+
+    .primo-row{
+         gap:3%;
+    }
+
+    .primo-cond {
+        width:100%;
+    }
+    
+}
+
+
+@media(min-width:1028px)
+{
+   .primo-row{
+        display:flex;
+        flex-wrap:nowrap;
+        gap:20px;
+    }
+
+    .primo1 img{
+        width:50%;
+    }hg
+
+    .pri-card{
+        width:33.3%;
+        margin-top:0px;
+        gap:5%;
+        padding:20px 20px 20px 20px;
+    }
+
+}
+
+@media(min-width:1336px)
+{
+    .primo-cond {
+        width:90%;
+        margin:0 auto;
+    }
+   .primo-row{
+        display:flex;
+        flex-wrap:nowrap;
+        gap:25px;
+    }
+
+    .primo1 img{
+        width:50%;
+    }
+
+    .pri-card{
+        width:33.3%;
+        margin-top:0px;
+        gap:7%;
+        padding:20px 20px 20px 20px;
+    }
+
+}
+

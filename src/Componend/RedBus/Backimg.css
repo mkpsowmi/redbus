@@ -1,0 +1,20 @@
+@media(min-width:320px){
+.back-img{
+  display:none;
+}
+
+}
+
+@media(min-width:768px){
+    .back-img{
+      display:block;
+    }
+    
+    }
+
+    @media(min-width:1028px){
+        .back-img{
+          display:block;
+        }
+        
+        }
