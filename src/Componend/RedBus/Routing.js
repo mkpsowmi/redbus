@@ -13,7 +13,7 @@ const Routing = () => {
   return (
     <div>
     <Context.Provider value={{state,dispatch}}> 
-        <BrowserRouter basename='/redbus'>
+        <BrowserRouter>
           <Routes>
             <Route path="/"  element={<Home/>}></Route>
             <Route path="/Travels" element={<Travels/>}/>
